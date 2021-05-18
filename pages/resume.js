@@ -27,19 +27,32 @@ export default function resume() {
 {/* ............................ */}
         <p style={Styles.body}> Work </p>   
         <div style={resumeStyles.sqWork}>
-          Honda R n D - 2019/Present 
-          UX Researcher 
+          Honda RnD<br></br>
+          California, 2019-Present<br></br>
+          UX Research for digital and physical l products, including research design, stakeholder analysis, participant recruiting, prototype testing, user feedback surveys, data collection and analysis, and presentation to stakeholders and leadership     
         </div>
 
 {/* ............................ */}
         <p style={Styles.body}> Interships </p>   
-        <div style={resumeStyles.sqInternship}>Mexico - Summer 2019</div>
+          <div style={resumeStyles.sqInternship}>
+            Isla Urbana <br></br>
+            Mexico, Summer 2019<br></br>
+            Designed a leaf filtration components for a rain water harvesting system. The goal was to create an accessible filter that was easy to clean by the end user, in this way improving the quality and quantity of water being harvested
+          </div>
         <Spacer height={.3}/>
 
-        <div style={resumeStyles.sqInternship}>India - Summer 2018</div>
+        <div style={resumeStyles.sqInternship}>
+          ModRoof<br></br>
+          India, Summer 2018<br></br>
+          Created a pre-installation measuring method consisted of a physical measuring tool and a python program to find optimal component sizes for a roof layout. Ultimately minimizing waste material, and ease of installation for the end users
+        </div>
         <Spacer height={.3}/>
 
-        <div style={resumeStyles.sqInternship}>NASA Ames - Summer 2017</div>
+        <div style={resumeStyles.sqInternship}>
+          NASA Ames<br></br>
+          Mountain View, Summer 2017<br></br>
+          Designed a 3D printable locking mechanism for a wearable sensor. The goal was to design a lock that was quick to produce while in space and also operable while wearing a space suit
+        </div>
 
 {/* ............................ */}
         <p style={Styles.body}> Skills </p>   

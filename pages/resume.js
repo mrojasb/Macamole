@@ -27,22 +27,32 @@ export default function resume() {
 {/* ............................ */}
         <p style={Styles.body}> Work </p>   
         <div style={resumeStyles.sqWork}>
-          
+          Honda R n D - 2019/Present 
+          UX Researcher 
         </div>
 
 {/* ............................ */}
         <p style={Styles.body}> Interships </p>   
-        <div style={resumeStyles.sqInternship}>Mexico</div>
+        <div style={resumeStyles.sqInternship}>Mexico - Summer 2019</div>
         <Spacer height={.3}/>
 
-        <div style={resumeStyles.sqInternship}>India</div>
+        <div style={resumeStyles.sqInternship}>India - Summer 2018</div>
         <Spacer height={.3}/>
 
-        <div style={resumeStyles.sqInternship}>NASA Ames</div>
+        <div style={resumeStyles.sqInternship}>NASA Ames - Summer 2017</div>
 
 {/* ............................ */}
         <p style={Styles.body}> Skills </p>   
-        <div style={resumeStyles.sqSkills}></div>
+        <div style={resumeStyles.sqSkillsCont}>
+          <div style={resumeStyles.sqSkills}>1</div>
+          <div style={resumeStyles.sqSkills}>2</div>
+          <div style={resumeStyles.sqSkills}>3</div>
+          <div style={resumeStyles.sqSkills}>4</div>
+          <div style={resumeStyles.sqSkills}>5</div>
+          <div style={resumeStyles.sqSkills}>6</div>
+          <div style={resumeStyles.sqSkills}>7</div>
+          <div style={resumeStyles.sqSkills}>8</div>
+        </div>
 
       </div>
     </div>

@@ -42,6 +42,8 @@ let afterTap = {
 
         textAlign: 'center',
         fontFamily: 'Spartan',
+        textDecoration: "none",
+        color: "black",
 
         display: 'flex',
         flexDirection: 'column',

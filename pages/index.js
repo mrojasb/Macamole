@@ -1,9 +1,10 @@
 
 import afterTap from "../components/afterTap";
 import homeStyle from "../components/homeStyle";
-import Layout from '../components/Layout';
+// import Layout from '../components/Layout';
 import Styles from '../components/Theme';
 import Spacer from "../components/Spacer";
+import Link from "next/link";
 
 
 export default function index() {
@@ -57,23 +58,17 @@ export default function index() {
               {/* Nav */}
               <div style={afterTap.sqNav}>
 
-                  <div style={afterTap.sqNavChild}
-                  onClick={function () {
-                    location.href = "/about";}}>
-                    {/* <img src="/icon/aboutIcon.png" style={afterTap.childImg}></img> */}
-                    About</div>
+                  <Link href="/about">
+                    <a style={afterTap.sqNavChild}>About</a>
+                  </Link>
 
-                    <div style={afterTap.sqNavChild}
-                  onClick={function () {
-                    location.href = "/resume";}}>
-                    {/* <img src="/icon/resumeIcon.png" style={afterTap.childImg}></img> */}
-                    Resume</div>
+                  <Link href="/resume">
+                    <a style={afterTap.sqNavChild}>Resume</a>
+                  </Link>
 
-                    <div style={afterTap.sqNavChild}
-                  onClick={function () {
-                    location.href = "/contact";}}>
-                    {/* <img src="/icon/contactIcon.png" style={afterTap.childImg}></img> */}
-                    Contact</div>
+                  <Link href="/contact">
+                    <a style={afterTap.sqNavChild}>Contact</a>
+                  </Link>
               
               </div>
 

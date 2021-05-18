@@ -28,10 +28,20 @@ let resumeStyles = {
         backgroundColor: "#a7aaad",
     },
 
+    sqSkillsCont: {
+        height: '4rem',
+        // width: '100%',
+        backgroundColor: "#a7aaad",
+        display: 'flex',
+    },
+
     sqSkills: {
         height: '4rem',
-        width: '100%',
-        backgroundColor: "#a7aaad",
+        width: '10rem',
+        backgroundColor: "pink",
+
+        margin: '0 1rem',
+    
     }
 
 }

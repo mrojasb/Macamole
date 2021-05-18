@@ -18,9 +18,8 @@ export default function contact() {
                             Here is where you can contact me!
                             <Spacer height={1.5}/>
 
-                            mail: macarojasb@gmail.com <br></br>
+                            e-mail: macarojasb@gmail.com <br></br>
                             instagram: @macarojasb <br></br>
-                            phone: 
                         </p>
                 
                 </div>

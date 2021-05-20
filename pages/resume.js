@@ -11,61 +11,82 @@ export default function resume() {
       <div style={Styles.content}>
         <h2 style={Styles.h2}> Resume </h2>
 {/* ............................ */}
-        <p style={Styles.body}> Education </p>   
-        <div style={resumeStyles.sqEdu}>
-          <div style={resumeStyles.sqEduChild}>
-            <strong>Smith College '19 <br></br></strong>
-            High Honors B.S. <br></br>
-            Engineering Science
+        <section style={resumeStyles.setFont}> 
+        Education
+        <Spacer height={.4}/>
+          <div style={resumeStyles.sqEdu}>
+            <div style={resumeStyles.sqEduChild}>
+              <strong>Smith College '19 <br></br></strong>
+              High Honors B.S. <br></br>
+              Engineering Science
+            </div>
+            <div style={resumeStyles.sqEduChild}>
+              <strong>UX Researcher Certificate '20' <br></br></strong>
+              Neilsen Norman Group
+            </div>
           </div>
-          <div style={resumeStyles.sqEduChild}>
-            <strong>UX Researcher Certificate '20' <br></br></strong>
-            Neilsen Norman Group
-          </div>
-        </div>
+        </section>
+        <Spacer height={1}/>
 
 {/* ............................ */}
-        <p style={Styles.body}> Work </p>   
-        <div style={resumeStyles.sqWork}>
-          Honda RnD<br></br>
-          California, 2019-Present<br></br>
-          UX Research for digital and physical l products, including research design, stakeholder analysis, participant recruiting, prototype testing, user feedback surveys, data collection and analysis, and presentation to stakeholders and leadership     
-        </div>
-
-{/* ............................ */}
-        <p style={Styles.body}> Interships </p>   
-          <div style={resumeStyles.sqInternship}>
-            Isla Urbana <br></br>
-            Mexico, Summer 2019<br></br>
-            Designed a leaf filtration components for a rain water harvesting system. The goal was to create an accessible filter that was easy to clean by the end user, in this way improving the quality and quantity of water being harvested
+        <section style={resumeStyles.setFont}> 
+        Work 
+        <Spacer height={.4}/>
+          <div style={resumeStyles.sqWork}>
+            <strong>Honda RnD. California, 2019 - Present<br></br></strong>
+            <Spacer height={.3}/>
+            UX Research for digital and physical l products, including research design, stakeholder analysis, participant recruiting, prototype testing, user feedback surveys, data collection and analysis, and presentation to stakeholders and leadership     
           </div>
-        <Spacer height={.3}/>
-
-        <div style={resumeStyles.sqInternship}>
-          ModRoof<br></br>
-          India, Summer 2018<br></br>
-          Created a pre-installation measuring method consisted of a physical measuring tool and a python program to find optimal component sizes for a roof layout. Ultimately minimizing waste material, and ease of installation for the end users
-        </div>
-        <Spacer height={.3}/>
-
-        <div style={resumeStyles.sqInternship}>
-          NASA Ames<br></br>
-          Mountain View, Summer 2017<br></br>
-          Designed a 3D printable locking mechanism for a wearable sensor. The goal was to design a lock that was quick to produce while in space and also operable while wearing a space suit
-        </div>
+        </section>
+        <Spacer height={1}/>
 
 {/* ............................ */}
-        <p style={Styles.body}> Skills </p>   
-        <div style={resumeStyles.sqSkillsCont}>
-          <div style={resumeStyles.sqSkills}>1</div>
-          <div style={resumeStyles.sqSkills}>2</div>
-          <div style={resumeStyles.sqSkills}>3</div>
-          <div style={resumeStyles.sqSkills}>4</div>
-          <div style={resumeStyles.sqSkills}>5</div>
-          <div style={resumeStyles.sqSkills}>6</div>
-          <div style={resumeStyles.sqSkills}>7</div>
-          <div style={resumeStyles.sqSkills}>8</div>
-        </div>
+        <section style={resumeStyles.setFont}> 
+        Interships
+        <Spacer height={.4}/>
+            <div style={resumeStyles.sqWork}>
+              <strong>Isla Urbana - Mexico, Summer 2019<br></br></strong>
+              <Spacer height={.3}/>
+              Designed a leaf filtration components for a rain water harvesting system. The goal was to create an accessible filter that was easy to clean by the end user, in this way improving the quality and quantity of water being harvested
+            </div>
+          <Spacer height={1}/>
+
+          <div style={resumeStyles.sqWork}>
+            <strong>ModRoof - India, Summer 2018<br></br></strong>
+            <Spacer height={.3}/>
+            Created a pre-installation measuring method consisted of a physical measuring tool and a python program to find optimal component sizes for a roof layout. Ultimately minimizing waste material, and ease of installation for the end users
+          </div>
+          <Spacer height={1}/>
+
+          <div style={resumeStyles.sqWork}>
+            <strong>NASA Ames - California, Summer 2017<br></br></strong>
+            <Spacer height={.3}/>
+            Designed a 3D printable locking mechanism for a wearable sensor. The goal was to design a lock that was quick to produce while in space and also operable while wearing a space suit
+          </div>
+        </section>
+        <Spacer height={1}/>
+
+{/* ............................ */}
+        <section style={resumeStyles.setFont}> 
+        Skills  
+        <Spacer height={.4}/>
+          <div style={resumeStyles.sqSkillsCont}>
+              <div style={resumeStyles.sqSkills}>
+                Skill 1<br></br>
+                Skill 2
+              </div>
+              <div style={resumeStyles.sqSkills}>
+                Skill 1<br></br>
+                Skill 2<br></br>
+                Skill 3
+              </div>
+              <div style={resumeStyles.sqSkills}>
+                Skill 1<br></br>
+                Skill 2<br></br>
+                Skill 3
+              </div>
+          </div>
+        </section> 
 
       </div>
     </div>

@@ -1,7 +1,6 @@
 
 import afterTap from "../components/afterTap";
 import homeStyle from "../components/homeStyle";
-// import Layout from '../components/Layout';
 import Styles from '../components/Theme';
 import Spacer from "../components/Spacer";
 import Link from "next/link";

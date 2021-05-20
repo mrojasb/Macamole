@@ -8,10 +8,11 @@ export default function contact() {
         <div>
             <Layout />
             <div style={Styles.content}>
-                <div style={contactStyle.contactBox}>
                 
-                        <h1 style={Styles.header}>Contact</h1>
-                        
+                <div style={contactStyle.contactBox}>
+
+                        <h2 style={Styles.h2}> Contact </h2>
+
                         <img src="/img/tiny-maca-profile.png" style={contactStyle.macaProfile}></img>
 
                         <p style={Styles.body}>

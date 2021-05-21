@@ -35,7 +35,7 @@ export default function resume() {
           <div style={resumeStyles.sqWork}>
             <strong>Honda RnD. California, 2019 - Present<br></br></strong>
             <Spacer height={.3}/>
-            UX Research for digital and physical l products, including research design, stakeholder analysis, participant recruiting, prototype testing, user feedback surveys, data collection and analysis, and presentation to stakeholders and leadership     
+            I am an UX Researcher for physical and digital products, my job is to define and plan research to inform the development of new products. Some of my responsibilities are preparing participant recruiting criteria, interview guides, user surveys, competitive landscape analysis, prototype testing events, and distilling our findings into visual presentations to company leadership.     
           </div>
         </section>
         <Spacer height={1}/>

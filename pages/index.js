@@ -49,7 +49,7 @@ export default function index() {
                               My name is Maca. I'm a Researcher, Engineer, 
                               and more importantly lover of strawberries and blankets
                               <Spacer height={1}/>
-                              I am still developing this website, but more to come soon. 
+                              I am still developing this website, but i will be adding more content soon. 
                               Thank you for stoping by!
                 </p>
               </div>

@@ -59,11 +59,11 @@ const Header = () => (
       </Link>
     </div>
 
-    <div>
+    {/* <div>
       <Link href="/index">
         <a style={homelink}>Home</a>
       </Link>
-    </div>
+    </div> */}
     
   </div>
 );

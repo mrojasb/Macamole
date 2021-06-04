@@ -47,27 +47,23 @@ export default function resume() {
             <div style={resumeStyles.sqWork}>
               <strong>Isla Urbana - Mexico, Summer 2019<br></br></strong>
               <Spacer height={.3}/>
-              Designed a leaf filtration components for a rain water harvesting system. The goal was to create an accessible filter that was easy to clean by the end user, in this way improving the quality and quantity of water being harvested
+              Conducted on-site interviews with the users of a rainwater harvesting system, and redesigned the system’s leaf filter based in insights from the research. New design simplified the filter’s maintenance and decreased water loss
+
             </div>
           <Spacer height={1}/>
 
           <div style={resumeStyles.sqWork}>
             <strong>ModRoof - India, Summer 2018<br></br></strong>
             <Spacer height={.3}/>
-            Created a pre-installation measuring method consisted of a physical measuring tool and a python program to find optimal component sizes for a roof layout. Ultimately minimizing waste material, and ease of installation for the end users
-          </div>
+            Conducted a field study observing the work of pre-installation teams for a modular roof. Prototyped a pre-installation roof-measuring method and tool. New design minimized scrap material and improved ease of installation</div>
           <Spacer height={1}/>
 
-          <div style={resumeStyles.sqWork}>
-            <strong>NASA Ames - California, Summer 2017<br></br></strong>
-            <Spacer height={.3}/>
-            Designed a 3D printable locking mechanism for a wearable sensor. The goal was to design a lock that was quick to produce while in space and also operable while wearing a space suit
-          </div>
+      
         </section>
         <Spacer height={1}/>
 
 {/* ............................ */}
-        <section style={resumeStyles.setFont}> 
+        {/* <section style={resumeStyles.setFont}> 
         Skills  
         <Spacer height={.4}/>
           <div style={resumeStyles.sqSkillsCont}>
@@ -86,7 +82,7 @@ export default function resume() {
                 Skill 3
               </div>
           </div>
-        </section> 
+        </section>  */}
 
       </div>
     </div>

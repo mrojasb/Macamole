@@ -19,6 +19,11 @@ let Styles = {
         textDecoration: 'none',
     },
 
+    download: {
+        fontFamily: 'Spartan',
+        fontSize: '14px',
+    },
+
     content: {
         marginTop: 70,
         paddingLeft: '1rem',

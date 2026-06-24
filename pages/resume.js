@@ -37,6 +37,7 @@ export default function Resume() {
             <Spacer height={0.3} />
             <p>
               Cfadsfasdfasdfpre
+            </p>
           </div>
         </section>
         <Spacer height={1} />

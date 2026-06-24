@@ -39,7 +39,7 @@ export default function Index() {
           </h1>
 
           <p style={styles.p}>
-            Pull up a chair and come back a little later &mdash; it&apos;ll be worth the wait.
+            come back a little later 
           </p>
 
           <div style={styles.domain}>macarojasb.com</div>
